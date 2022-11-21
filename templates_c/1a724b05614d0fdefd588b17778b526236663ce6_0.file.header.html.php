@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-18 08:10:23
+/* Smarty version 3.1.29, created on 2022-11-21 08:20:00
   from "C:\xampp\htdocs\ecc_test\templates\header.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_63772fdf247734_56362130',
+  'unifunc' => 'content_637b26a0d81411_75239776',
   'file_dependency' => 
   array (
     '1a724b05614d0fdefd588b17778b526236663ce6' => 
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_63772fdf247734_56362130 ($_smarty_tpl) {
+function content_637b26a0d81411_75239776 ($_smarty_tpl) {
 ?>
 <section class="buttonset">
 	<div id="nav_list"></div>

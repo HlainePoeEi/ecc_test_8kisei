@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-21 07:19:17
-  from "C:\xampp\htdocs\ecc_test\templates\wordRegist.html" */
+/* Smarty version 3.1.29, created on 2022-11-21 08:20:00
+  from "C:\xampp\htdocs\ecc_test\templates\yaWordRegist.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637b186552b190_37125460',
+  'unifunc' => 'content_637b26a0abe721_63470099',
   'file_dependency' => 
   array (
-    'ab48a55da64539edb2251bb22b8d1888aea95b99' => 
+    'fd8f222932203b2f31d6b32e03a34bfb9177129e' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\wordRegist.html',
-      1 => 1668740701,
+      0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\yaWordRegist.html',
+      1 => 1669013994,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 2,
   ),
 ),false)) {
-function content_637b186552b190_37125460 ($_smarty_tpl) {
+function content_637b26a0abe721_63470099 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -101,24 +101,15 @@ css/style.css" rel="stylesheet">
 					**/
 					$("#btn_insert").on('click', function(){
 					$(".error_section").hide();
-				    var word = $('#word').val();
-				    var translation = $('#translation').val();
+				    var word_book_name = $('#word_book_name').val();
 				    var word_lang_type =  $('#word_lang_type').val();
-				    var trans_lang_type =  $('#trans_lang_type').val();
-	                  if ( word == "" ) {
+	                  if ( word_book_name == "" ) {
 						   $('#err_dis').show();
 	                       $(".error_section").slideToggle('slow');
 		                   $(".error_msg").html("単語名を入力してください。");
 		                    $(".divBody").scrollTop(0);
 	                        return false;
 	                    }
-	                  if ( translation == "" ) {
-						  $('#err_dis').show();
-						  $(".error_section").slideToggle('slow');
-						  $(".error_msg").html(" 意味を入力してください。");
-						  $(".divBody").scrollTop(0);
-						  return false;
-	                  }
 					  if ( word_lang_type == "" ) {
 						$('#err_dis').show();
 						$(".error_section").slideToggle('slow');
@@ -126,13 +117,6 @@ css/style.css" rel="stylesheet">
 						$(".divBody").scrollTop(0);
 						return false;
 					}
-				      if ( trans_lang_type == "" ) {
-						  $('#err_dis').show();
-						  $(".error_section").slideToggle('slow');
-						  $(".error_msg").html("訳言語を入力してください。");
-						  $(".divBody").scrollTop(0);
-						  return false;
-						}
 					});
 			});
 		<?php echo '</script'; ?>
@@ -141,7 +125,7 @@ css/style.css" rel="stylesheet">
 <body class="pushmenu-push">
 	<form id="main_form" name="main_form1"
 		action="<?php echo @constant('HOME_DIR');?>
-WordRegist/Save" method="post">
+YAWordRegist/Save" method="post">
 		<?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:leftMenu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -170,12 +154,12 @@ image/close_icon.png"
 				</section>
 				<section class="content">
 					<p>
-						>> <span class="title">単語 / 単語登録</span>
+						>> <span class="title">YA / 単語登録</span>
 					</p>
 					<p style="text-align: right; width: 100%;">
 						<input type="button" title="戻る" value="" class="btn_back"
 							onclick="javascript:doBack('<?php echo @constant('HOME_DIR');?>
-WordRegist/back')">
+YAWordRegist/back')">
 					</p>
 					<input type="hidden" id="msg" name="msg" value="<?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
 " />
@@ -186,41 +170,13 @@ WordRegist/back')">
 					<input type="hidden" id="audio_data" name="audio_data" value="" />
 					<input type="hidden" id="screen_mode" name="screen_mode" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->screen_mode;?>
 " />
-					<input type="hidden" id="org_name" name="org_name" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->org_name;?>
-" />
-					<input type="hidden" id="org_no" name="org_no" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->org_no;?>
-" />
-					<input type="hidden" id="search_word" name="search_word" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_word;?>
-" />
-					<input type="hidden" id="search_translation" name="search_translation" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_translation;?>
-" />
-					<input type="hidden" id="search_org_id" name="search_org_id" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_org_id;?>
-" />
-					<input type="hidden" id="search_page" name="search_page" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_page;?>
-" />
-					<input type="hidden" id="search_page_row" name="search_page_row" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_page_row;?>
-" />
-					<input type="hidden" id="search_page_order_column" name="search_page_order_column" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_page_order_column;?>
-" />
-					<input type="hidden" id="search_page_order_dir" name="search_page_order_dir" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->search_page_order_dir;?>
-" />
 					<div width="100%">
 						<table width="100%">
 							<tr>
 								<td style="width: 240px;">単語名<span class="required">※</span></td>
-								<td><input type="text" class="text" id="word" name="word"
-									value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word;?>
+								<td><input type="text" class="text" id="word_book_name" name="word_book_name"
+									value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_book_name;?>
 " maxlength="512" size="30">
-								</td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td style="width: 240px;">意味<span class="required">※</span></td>
-								<td><textarea name="translation" id="translation" rows="2"
-										class="txtarea" maxlength="512" cols="40"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['form']->value->translation, ENT_QUOTES, 'UTF-8', true);?>
-</textarea>
 								</td>
 							</tr>
 							<tr>
@@ -300,83 +256,6 @@ $_smarty_tpl->tpl_vars['word'] = $__foreach_word_1_saved_item;
 								<td></td>
 							</tr>
 							<tr>
-								<td style="width: 240px;"><label>訳言語</label><span
-									class="required">※</span>
-								</td>
-								<td><select name="trans_lang_type" id="trans_lang_type"
-									style="width: 189px;" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->trans_lang_type;?>
-"> <?php if (!empty($_smarty_tpl->tpl_vars['trans_category']->value)) {?> <?php ob_start();
-echo ($_smarty_tpl->tpl_vars['form']->value->trans_lang_type);
-$_tmp5=ob_get_clean();
-if ($_tmp5 == '') {?>
-										<option value="" 　selected>選択してください。</option> <?php
-$_from = $_smarty_tpl->tpl_vars['trans_category']->value;
-if (!is_array($_from) && !is_object($_from)) {
-settype($_from, 'array');
-}
-$__foreach_tran_2_saved_item = isset($_smarty_tpl->tpl_vars['tran']) ? $_smarty_tpl->tpl_vars['tran'] : false;
-$_smarty_tpl->tpl_vars['tran'] = new Smarty_Variable();
-$_smarty_tpl->tpl_vars['tran']->_loop = false;
-foreach ($_from as $_smarty_tpl->tpl_vars['tran']->value) {
-$_smarty_tpl->tpl_vars['tran']->_loop = true;
-$__foreach_tran_2_saved_local_item = $_smarty_tpl->tpl_vars['tran'];
-?>
-										<option value=<?php echo $_smarty_tpl->tpl_vars['tran']->value->type;?>
-> <?php echo $_smarty_tpl->tpl_vars['tran']->value->name;?>
-</option>
-										<?php
-$_smarty_tpl->tpl_vars['tran'] = $__foreach_tran_2_saved_local_item;
-}
-if ($__foreach_tran_2_saved_item) {
-$_smarty_tpl->tpl_vars['tran'] = $__foreach_tran_2_saved_item;
-}
-?> <?php } else { ?>
-										<option value="">選択してください。</option> <?php
-$_from = $_smarty_tpl->tpl_vars['trans_category']->value;
-if (!is_array($_from) && !is_object($_from)) {
-settype($_from, 'array');
-}
-$__foreach_tran_3_saved_item = isset($_smarty_tpl->tpl_vars['tran']) ? $_smarty_tpl->tpl_vars['tran'] : false;
-$_smarty_tpl->tpl_vars['tran'] = new Smarty_Variable();
-$_smarty_tpl->tpl_vars['tran']->_loop = false;
-foreach ($_from as $_smarty_tpl->tpl_vars['tran']->value) {
-$_smarty_tpl->tpl_vars['tran']->_loop = true;
-$__foreach_tran_3_saved_local_item = $_smarty_tpl->tpl_vars['tran'];
-?> <?php ob_start();
-echo ($_smarty_tpl->tpl_vars['form']->value->trans_lang_type);
-$_tmp6=ob_get_clean();
-ob_start();
-echo $_smarty_tpl->tpl_vars['tran']->value->type;
-$_tmp7=ob_get_clean();
-if ($_tmp6 == $_tmp7) {?>
-										<option value=<?php echo $_smarty_tpl->tpl_vars['tran']->value->type;?>
-
-											selected><?php echo $_smarty_tpl->tpl_vars['tran']->value->name;?>
-</option> <?php } else { ?>
-										<option value=<?php echo $_smarty_tpl->tpl_vars['tran']->value->type;?>
- ><?php echo $_smarty_tpl->tpl_vars['tran']->value->name;?>
-</option> <?php }?>
-										<?php
-$_smarty_tpl->tpl_vars['tran'] = $__foreach_tran_3_saved_local_item;
-}
-if ($__foreach_tran_3_saved_item) {
-$_smarty_tpl->tpl_vars['tran'] = $__foreach_tran_3_saved_item;
-}
-?> <?php }?> <?php }?>
-								     </select>
-								</td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td><label class="lbl_name">備考</label></td>
-								<td><textarea name="remarks" id="remarks" rows="2"
-										class="txtarea" maxlength="512" cols="40"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['form']->value->remarks, ENT_QUOTES, 'UTF-8', true);?>
-</textarea>
-								</td>
-							</tr>
-							<tr>
 								<td></td>
 							</tr>
 						</table>
@@ -392,7 +271,7 @@ $_smarty_tpl->tpl_vars['tran'] = $__foreach_tran_3_saved_item;
 									class="btn_delete"
 									onclick="checkDelete('<?php echo $_smarty_tpl->tpl_vars['form']->value->word_id;?>
 ','<?php echo @constant('HOME_DIR');?>
-WordRegist/delete');"
+YAWordRegist/delete');"
 									style="text-align: left;"> <?php }?>
 							</tr>
 							<tr>
@@ -416,27 +295,6 @@ WordRegist/delete');"
 			<!--footer-->
 		</div>
 	</form>
-	<?php echo '<script'; ?>
->
-			
-			//削除 ボタン押下処理
-			function checkDelete(word_id,action){
-				alertDialog = confirm('Are you sure to delete this word?');
-				if ( alertDialog == false ) {
-					return false;
-				}else {
-					var menuOpen = document.getElementById('menuOpen').value;
-					var menuStatus = document.getElementById('menuStatus').value;
-					$("#main_form").attr("action", action);
-					$("#word_id").val(word_id);
-					$("#menuOpen").val(menuOpen);
-					$("#menuStatus").val(menuStatus);
-					$("#main_form").submit();
-				}
-			}
-			
-		<?php echo '</script'; ?>
->
 	<!--footer-->
 	<?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>

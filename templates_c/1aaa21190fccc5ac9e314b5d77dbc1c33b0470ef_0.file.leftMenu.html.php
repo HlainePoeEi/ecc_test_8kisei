@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-18 08:10:23
+/* Smarty version 3.1.29, created on 2022-11-21 08:20:00
   from "C:\xampp\htdocs\ecc_test\templates\leftMenu.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_63772fdf127a55_70027321',
+  'unifunc' => 'content_637b26a0cb8501_23767750',
   'file_dependency' => 
   array (
     '1aaa21190fccc5ac9e314b5d77dbc1c33b0470ef' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\leftMenu.html',
-      1 => 1668753622,
+      1 => 1669006989,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_63772fdf127a55_70027321 ($_smarty_tpl) {
+function content_637b26a0cb8501_23767750 ($_smarty_tpl) {
 ?>
 <input type="hidden" id="menuOpen" name="menuOpen" value="<?php echo $_smarty_tpl->tpl_vars['menuOpen']->value;?>
 ">
@@ -66,6 +66,21 @@ Menu">
 							id="WordRegist">単語登録</a>
 					</li>
 					<li><a class="drawer-dropdown-menu-item" href="javascript:void(0);" id="WordList">単語一覧</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li class="drawer-dropdown" id="menu_li_wordMenu">
+				<a class="drawer-menu-item" data-target="#" href="javascript:void(0);" data-toggle="dropdown"
+					role="button" aria-expanded="false" id="wordMenu">
+					<span class="wordMenuIcon1"></span><label class="menu-label">YA</label>
+					<span class="drawer-caret"></span>
+				</a>
+				<ul class="drawer-dropdown-menu" style="display:none;">
+					<li class="admintype5"><a class="drawer-dropdown-menu-item" href="javascript:void(0);"
+							id="YAWordRegist">単語登録</a>
+					</li>
+					<li><a class="drawer-dropdown-menu-item" href="javascript:void(0);" id="YAWordList">単語一覧</a></li>
 				</ul>
 			</li>
 		</ul>
