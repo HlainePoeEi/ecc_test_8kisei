@@ -1,18 +1,54 @@
-<input type="hidden" id="menuOpen" name="menuOpen" value="{$menuOpen}">
-<input type="hidden" id="menuStatus" name="menuStatus" value="{$menuStatus}">
-<input type="hidden" id="uid" name="uid" value="{$uid}">
-<input type="hidden" id="admin_kbn" name="admin_kbn" value="{$admin_kbn}">
-<input type="hidden" id="type1" name="type1" value="{$smarty.const.ADMIN_KBN}">
-<input type="hidden" id="type2" name="type2" value="{$smarty.const.ADMIN_FOLLOW_KBN}">
-<input type="hidden" id="type3" name="type3" value="{$smarty.const.ADMIN_4SKILL_KBN}">
-<input type="hidden" id="type4" name="type4" value="{$smarty.const.CEBU_TEACHER_KBN}">
-<input type="hidden" id="type5" name="type5" value="{$smarty.const.BU_ADMIN_KBN}">
+<?php
+/* Smarty version 3.1.29, created on 2022-11-18 08:10:23
+  from "C:\xampp\htdocs\ecc_test\templates\leftMenu.html" */
+
+if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
+  'has_nocache_code' => false,
+  'version' => '3.1.29',
+  'unifunc' => 'content_63772fdf127a55_70027321',
+  'file_dependency' => 
+  array (
+    '1aaa21190fccc5ac9e314b5d77dbc1c33b0470ef' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\leftMenu.html',
+      1 => 1668753622,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_63772fdf127a55_70027321 ($_smarty_tpl) {
+?>
+<input type="hidden" id="menuOpen" name="menuOpen" value="<?php echo $_smarty_tpl->tpl_vars['menuOpen']->value;?>
+">
+<input type="hidden" id="menuStatus" name="menuStatus" value="<?php echo $_smarty_tpl->tpl_vars['menuStatus']->value;?>
+">
+<input type="hidden" id="uid" name="uid" value="<?php echo $_smarty_tpl->tpl_vars['uid']->value;?>
+">
+<input type="hidden" id="admin_kbn" name="admin_kbn" value="<?php echo $_smarty_tpl->tpl_vars['admin_kbn']->value;?>
+">
+<input type="hidden" id="type1" name="type1" value="<?php echo @constant('ADMIN_KBN');?>
+">
+<input type="hidden" id="type2" name="type2" value="<?php echo @constant('ADMIN_FOLLOW_KBN');?>
+">
+<input type="hidden" id="type3" name="type3" value="<?php echo @constant('ADMIN_4SKILL_KBN');?>
+">
+<input type="hidden" id="type4" name="type4" value="<?php echo @constant('CEBU_TEACHER_KBN');?>
+">
+<input type="hidden" id="type5" name="type5" value="<?php echo @constant('BU_ADMIN_KBN');?>
+">
 <nav class="pushmenu pushmenu-left">
 	<ul id="menu">
 		<li class="drawer-menu">
-			<a href="{$smarty.const.HOME_DIR}Menu">
-				<h3>{$admin_name}様 ({$romaji_name})
-					{$login_time}
+			<a href="<?php echo @constant('HOME_DIR');?>
+Menu">
+				<h3><?php echo $_smarty_tpl->tpl_vars['admin_name']->value;?>
+様 (<?php echo $_smarty_tpl->tpl_vars['romaji_name']->value;?>
+)
+					<?php echo $_smarty_tpl->tpl_vars['login_time']->value;?>
+
 				</h3>
 			</a>
 		</li>
@@ -295,7 +331,8 @@
 		</ul>
 	</div>
 </nav>
-<script type='text/javascript'>
+<?php echo '<script'; ?>
+ type='text/javascript'>
 	$(window).resize(function () {
 		$('#div_menu').height($(window).height() - 46);
 	});
@@ -413,7 +450,8 @@
 	$(document).ready(function () {
 		$(".drawer-dropdown-menu-item,.drawer-menu-single-item").click(function () {
 
-			$('#main_form').attr("action", "{$smarty.const.HOME_DIR}" + $(this).attr("id"));
+			$('#main_form').attr("action", "<?php echo @constant('HOME_DIR');?>
+" + $(this).attr("id"));
 
 			//いったん退避
 			var menuOpen = $("#menuOpen").val();
@@ -476,10 +514,13 @@
 
 		if (result) {
 			//はいを選んだときの処理
-			window.location.href = '{$smarty.const.HOME_DIR}Login/logout';
+			window.location.href = '<?php echo @constant('HOME_DIR');?>
+Login/logout';
 		} else {
 			//いいえを選んだときの処理
 		}
 	}
 
-</script>
+<?php echo '</script'; ?>
+><?php }
+}
