@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-22 02:54:23
+/* Smarty version 3.1.29, created on 2022-11-22 08:43:08
   from "C:\xampp\htdocs\ecc_test\templates\ynswordList.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637c2bcfb741d7_51047230',
+  'unifunc' => 'content_637c7d8c054077_36806300',
   'file_dependency' => 
   array (
     '3eb8dfbaae136ca580724843f3897d8944f1070d' => 
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_637c2bcfb741d7_51047230 ($_smarty_tpl) {
+function content_637c7d8c054077_36806300 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>

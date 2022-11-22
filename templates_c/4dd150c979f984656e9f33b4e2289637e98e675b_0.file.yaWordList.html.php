@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-22 08:43:02
-  from "C:\xampp\htdocs\ecc_test\templates\ynsWordList.html" */
+/* Smarty version 3.1.29, created on 2022-11-22 08:41:17
+  from "C:\xampp\htdocs\ecc_test\templates\yaWordList.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637c7d86284f06_51595277',
+  'unifunc' => 'content_637c7d1d803090_16642820',
   'file_dependency' => 
   array (
-    'c616317483f9d37d50a2ee1e249e2bce5649518a' => 
+    '4dd150c979f984656e9f33b4e2289637e98e675b' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\ynsWordList.html',
-      1 => 1668740701,
+      0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\yaWordList.html',
+      1 => 1669102860,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_637c7d86284f06_51595277 ($_smarty_tpl) {
+function content_637c7d1d803090_16642820 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -122,9 +122,7 @@ css/datatables.css" rel="stylesheet" />
 
 <body class="pushmenu-push">
   <form id="main_form" action="<?php echo @constant('HOME_DIR');?>
-YNSWordList/Search" method="post">
-    <input type="hidden" id="org_no" name="org_no" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->org_no;?>
-" />
+YAWordList/Search" method="post">
     <input type="hidden" id="msg" name="msg" value="<?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
 " />
     <input type="hidden" id="error_msg" name="error_msg" value="<?php echo $_smarty_tpl->tpl_vars['error_msg']->value;?>
@@ -199,14 +197,14 @@ echo $_tmp2;?>
             <?php }?>
           </section>
           <section class="content">
-            <p>>> <span class="title">YNS / 単語一覧</span></p>
+            <p>>> <span class="title">YA / 単語一覧</span></p>
             <br />
             <!-- <div class="divideCol"> -->
             <!-- <input class="text" type="text" name="search_word" id="search_word" maxlength="512" size="30" />
               <input type="submit" id="btn_search" name="search" title="検索" class="btn_search1" alt="search" value="" /> -->
             <input type="button" id="add" name="add_word" class="btn_add1" value="" title="新規追加"
               onclick="javascript:doInsert('<?php echo @constant('HOME_DIR');?>
-YNSWordRegist/index')" />
+YAWordRegist/index')" />
             <!-- </div> -->
             <br />
             <table class="tbl_search" id="tbl_search">
@@ -214,9 +212,6 @@ YNSWordRegist/index')" />
                 <tr>
                   <th width="100px;">単語名</th>
                   <th width="100px;">単語言語</th>
-                  <th width="100px;">通訳言語</th>
-                  <th width="70px;"></th>
-                  <th width="70px;"></th>
                   <th width="50px;">Action</th>
                 </tr>
               </thead>
@@ -243,35 +238,17 @@ echo $_tmp3;?>
                   <td width="100px;">en</td>
                   <?php } else { ?>
                   <td width="100px;">ja</td>
-                  <?php }?> <?php if ($_smarty_tpl->tpl_vars['result']->value->trans_lang_type == '001') {?>
-                  <td width="100px;">en</td>
-                  <?php } else { ?>
-                  <td width="100px;">ja</td>
-                  <?php }?>
-                  <!-- text to speech using php by STTO -->
-                  <td width="70px;">
-                    <input type="button" class="btn-sound_list1" name="v1"
-                      onclick="trans1('<?php echo $_smarty_tpl->tpl_vars['result']->value->word_book_name;?>
-','<?php echo @constant('HOME_DIR');?>
-YNSWordList/sound')" />
-                  </td>
-                  <!-- text to speech using php by NMZ -->
-                  <td width="70px;">
-                    <input type="button" class="btn_sound" name="audio" 　
-                      onclick="trans('<?php echo $_smarty_tpl->tpl_vars['result']->value->id;?>
-','<?php echo @constant('HOME_DIR');?>
-YNSWordList/audio')" />
-                  </td>
+                  <?php }?> 
                   <td width="50px;">
                     <input type="button" class="btn_edit1" name="edit" title="編集"
                       onclick="trans('<?php echo $_smarty_tpl->tpl_vars['result']->value->id;?>
 ','<?php echo @constant('HOME_DIR');?>
-YNSWordRegist/index')" />
+YAWordRegist/index')" />
 
                     <input type="button" class="btn_delete1" id="btn_del" name="edit" title="削除"
                       onclick="checkDelete('<?php echo $_smarty_tpl->tpl_vars['result']->value->id;?>
 ','<?php echo @constant('HOME_DIR');?>
-YNSWordRegist/delete')" />
+YAWordRegist/delete')" />
                   </td>
                 </tr>
                 <?php
@@ -299,19 +276,6 @@ $_smarty_tpl->tpl_vars['result'] = $__foreach_result_0_saved_item;
   { literal }
   <?php echo '<script'; ?>
 >
-    if ("speechSynthesis" in window) {
-      //   alert("このブラウザは音声合成に対応しています。🎉")
-    } else {
-      alert("このブラウザは音声合成に対応していません。😭");
-    }
-
-    // 発言を作成
-    const uttr = new SpeechSynthesisUtterance("Hello World!");
-    uttr.voice = speechSynthesis
-      .getVoices()
-      .filter((voice) => voice.name == "Google US English")[0];
-
-    // { literal }
     function setDataTableData() {
       var page = 0;
       var page_row = 10;
@@ -414,8 +378,6 @@ $_smarty_tpl->tpl_vars['result'] = $__foreach_result_0_saved_item;
         $("#main_form").submit();
       }
     }
-
-      // { /literal}
   <?php echo '</script'; ?>
 >
   { /literal}

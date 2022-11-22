@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-18 08:10:22
+/* Smarty version 3.1.29, created on 2022-11-22 08:24:21
   from "C:\xampp\htdocs\ecc_test\templates\wordList.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_63772fded0dae9_80147135',
+  'unifunc' => 'content_637c7925be6917_89595937',
   'file_dependency' => 
   array (
     'eb9652b055a32face519c72b1a6477f0ee036cb5' => 
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_63772fded0dae9_80147135 ($_smarty_tpl) {
+function content_637c7925be6917_89595937 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>

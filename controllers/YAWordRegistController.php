@@ -144,4 +144,24 @@ class YAWordRegistController extends BaseController {
 			return;
 		}
 	}
+
+	public function backAction() {
+		// 登録完了
+		$this->setBackData ();
+		$this->setMenu ();
+		// クイズ一覧画面へ遷移する
+		$this->dispatch ( 'YAWordList/Search' );
+	}
+
+	public function setBackData() {
+		$_SESSION ['back_flg'] = true;
+		$_SESSION ['search_page'] = $this->form->search_page;
+		$_SESSION ['search_word'] = $this->form->search_word;
+		$_SESSION ['search_org_id'] = $this->form->search_org_id;
+		$_SESSION ['search_translation'] = $this->form->search_translation;
+		$_SESSION ['search_file_name'] = $this->form->search_file_name;
+		$_SESSION ['search_page_row'] = $this->form->search_page_row;
+		$_SESSION ['search_page_order_column'] = $this->form->search_page_order_column;
+		$_SESSION ['search_page_order_dir'] = $this->form->search_page_order_dir;
+	}
 }

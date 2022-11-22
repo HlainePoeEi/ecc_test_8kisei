@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-22 05:17:31
+/* Smarty version 3.1.29, created on 2022-11-22 08:41:19
   from "C:\xampp\htdocs\ecc_test\templates\yaWordRegist.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637c4d5b0f0f85_18862894',
+  'unifunc' => 'content_637c7d1fb7ea63_80546224',
   'file_dependency' => 
   array (
     'fd8f222932203b2f31d6b32e03a34bfb9177129e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\yaWordRegist.html',
-      1 => 1669017354,
+      1 => 1669102758,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 2,
   ),
 ),false)) {
-function content_637c4d5b0f0f85_18862894 ($_smarty_tpl) {
+function content_637c7d1fb7ea63_80546224 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -170,8 +170,8 @@ YAWordRegist/back')">
 					<input type="hidden" id="audio_data" name="audio_data" value="" />
 					<input type="hidden" id="screen_mode" name="screen_mode" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->screen_mode;?>
 " />
-                    <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_book_name;?>
-" />
+					<input type="text" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_book_name;?>
+">
 					<div width="100%">
 						<table width="100%">
 							<tr>
