@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-21 08:20:00
+/* Smarty version 3.1.29, created on 2022-11-22 02:21:59
   from "C:\xampp\htdocs\ecc_test\templates\yaWordRegist.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637b26a0abe721_63470099',
+  'unifunc' => 'content_637c243789ebc6_35615524',
   'file_dependency' => 
   array (
     'fd8f222932203b2f31d6b32e03a34bfb9177129e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ecc_test\\templates\\yaWordRegist.html',
-      1 => 1669013994,
+      1 => 1669017354,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 2,
   ),
 ),false)) {
-function content_637b26a0abe721_63470099 ($_smarty_tpl) {
+function content_637c243789ebc6_35615524 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -165,10 +165,12 @@ YAWordRegist/back')">
 " />
 					<input type="hidden" id="error_msg" name="error_msg" value="<?php echo $_smarty_tpl->tpl_vars['error_msg']->value;?>
 " />
-					<input type="hidden" id="word_id" name="word_id" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_id;?>
+					<input type="text" id="word_id" name="word_id" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_id;?>
 ">
 					<input type="hidden" id="audio_data" name="audio_data" value="" />
 					<input type="hidden" id="screen_mode" name="screen_mode" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->screen_mode;?>
+" />
+                    <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['form']->value->word_book_name;?>
 " />
 					<div width="100%">
 						<table width="100%">
@@ -269,7 +271,7 @@ $_smarty_tpl->tpl_vars['word'] = $__foreach_word_1_saved_item;
 								<td width="400px;"></td> <?php if ($_smarty_tpl->tpl_vars['form']->value->screen_mode == 'update') {?>
 								<input id="btn_del" type="button" name="btn_del"
 									class="btn_delete"
-									onclick="checkDelete('<?php echo $_smarty_tpl->tpl_vars['form']->value->word_id;?>
+									onclick="checkDelete('<?php echo $_smarty_tpl->tpl_vars['form']->value->id;?>
 ','<?php echo @constant('HOME_DIR');?>
 YAWordRegist/delete');"
 									style="text-align: left;"> <?php }?>

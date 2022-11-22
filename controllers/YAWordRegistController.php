@@ -26,7 +26,7 @@ class YAWordRegistController extends BaseController {
 	public function indexAction() {
 		if ($this->check_login () == true) {
 			$word_service = new YAWordService ( $this->pdo );
-			$word_id = $this->form->id;
+			$word_id = $this->form->word_id;
 			$screen_mode = $this->form->screen_mode;
 			$word_category = "";
 			$err_msg = "";
@@ -44,7 +44,7 @@ class YAWordRegistController extends BaseController {
 				$list = $word_service->getWordData( $word_id );
 				if ($list != null) {
 					foreach ( $list as $value ) {
-						$this->form->word_id = $value->word_id;
+						$this->form->word_id = $value->id;
 						$this->form->word_book_name = $value->word_book_name;
 						$this->form->word_lang_type = $value->word_lang_type;
 						$this->form->screen_mode = "update";
@@ -82,7 +82,7 @@ class YAWordRegistController extends BaseController {
 				$this->smarty->assign ( 'error_msg',"ドロップダウンリストのデータがありません。");
 			}
 			$screen_mode = $this->form->screen_mode;
-			$word_id = $this->form->id;
+			$word_id = $this->form->word_id;
 			$word = $this->form->word_book_name;
 			$word_lang_type = $this->form->word_lang_type;
 			
@@ -90,10 +90,10 @@ class YAWordRegistController extends BaseController {
 			$word_dto = new T_YADto ();
 			$word_dto->word_book_name = $word;
 			$word_dto->word_lang_type = $word_lang_type;
-			$word_dto->id = $this->form->id;
-			$this->form->id = $word_dto->id;
+			$word_dto->id = $this->form->word_id;
+			//$this->form->word_id = $word_dto->id;
 			if ($screen_mode == 'update') {
-				$word_id = $this->form->id;
+				$word_id = $this->form->word_id;
 				$dao = new YAWordService ( $this->pdo );
 				$result = $dao->updateWordInfo ( $word_dto );
 				// 更新処理が正常の場合、
@@ -115,7 +115,7 @@ class YAWordRegistController extends BaseController {
 				}
 				// 登録状況
 			} else {
-			    $word_dto->id = $this->form->id;
+			    $word_dto->id = $this->form->word_id;
 				$dao = new YAWordService ( $this->pdo );
 				$result = $dao->saveWord ( $word_dto );
 				// 登録処理が正常の場合、クイズ一覧画面に遷移する。

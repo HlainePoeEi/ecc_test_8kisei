@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-21 08:20:00
+/* Smarty version 3.1.29, created on 2022-11-22 02:54:24
   from "C:\xampp\htdocs\ecc_test\templates\leftMenu.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637b26a0cb8501_23767750',
+  'unifunc' => 'content_637c2bd01f5994_88935288',
   'file_dependency' => 
   array (
     '1aaa21190fccc5ac9e314b5d77dbc1c33b0470ef' => 
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_637b26a0cb8501_23767750 ($_smarty_tpl) {
+function content_637c2bd01f5994_88935288 ($_smarty_tpl) {
 ?>
 <input type="hidden" id="menuOpen" name="menuOpen" value="<?php echo $_smarty_tpl->tpl_vars['menuOpen']->value;?>
 ">

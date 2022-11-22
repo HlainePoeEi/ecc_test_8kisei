@@ -108,9 +108,10 @@
 					</p>
 					<input type="hidden" id="msg" name="msg" value="{$msg}" />
 					<input type="hidden" id="error_msg" name="error_msg" value="{$error_msg}" />
-					<input type="hidden" id="word_id" name="word_id" value="{$form->word_id}">
+					<input type="text" id="word_id" name="word_id" value="{$form->word_id}">
 					<input type="hidden" id="audio_data" name="audio_data" value="" />
 					<input type="hidden" id="screen_mode" name="screen_mode" value="{$form->screen_mode}" />
+                    <input type="text" value="{$form->word_book_name}" />
 					<div width="100%">
 						<table width="100%">
 							<tr>
@@ -159,7 +160,7 @@
 								<td width="400px;"></td> {if $form->screen_mode eq 'update'}
 								<input id="btn_del" type="button" name="btn_del"
 									class="btn_delete"
-									onclick="checkDelete('{$form->word_id}','{$smarty.const.HOME_DIR}YAWordRegist/delete');"
+									onclick="checkDelete('{$form->id}','{$smarty.const.HOME_DIR}YAWordRegist/delete');"
 									style="text-align: left;"> {/if}
 							</tr>
 							<tr>

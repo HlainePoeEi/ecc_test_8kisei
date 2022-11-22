@@ -1,0 +1,281 @@
+2022-11-22 02:21:41,557 DEBUG [8568] [] Request URI : /ecc_test/Login
+2022-11-22 02:21:41,575 DEBUG [8568] [] LoginController start
+2022-11-22 02:21:41,575 DEBUG [8568] [] controllers/LoginController.php: is exist
+2022-11-22 02:21:41,583 DEBUG [8568] [] LoginForm: is exist
+2022-11-22 02:21:41,584 DEBUG [8568] [] LoginForm: form value set 
+2022-11-22 02:21:41,614 DEBUG [8568] [] ------------------------------/ecc_test/Login
+2022-11-22 02:21:41,615 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 02:21:41,615 DEBUG [8568] [] indexAction start
+2022-11-22 02:21:41,781 DEBUG [8568] [] indexAction end
+2022-11-22 02:21:41,782 DEBUG [8568] [] LoginController end
+2022-11-22 02:21:41,782 DEBUG [8568] [] finally
+2022-11-22 02:21:45,658 DEBUG [8568] [] Request URI : /ecc_test/Login/login
+2022-11-22 02:21:45,663 DEBUG [8568] [] LoginController start
+2022-11-22 02:21:45,664 DEBUG [8568] [] controllers/LoginController.php: is exist
+2022-11-22 02:21:45,671 DEBUG [8568] [] LoginForm: is exist
+2022-11-22 02:21:45,672 DEBUG [8568] [] LoginForm: form value set 
+2022-11-22 02:21:45,685 DEBUG [8568] [] ------------------------------/ecc_test/Login/login
+2022-11-22 02:21:45,685 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 02:21:45,686 DEBUG [8568] [] loginAction start
+2022-11-22 02:21:45,941 DEBUG [8568] [] loginAction end
+2022-11-22 02:21:45,941 DEBUG [8568] [] LoginController end
+2022-11-22 02:21:45,941 DEBUG [8568] [] finally
+2022-11-22 02:21:45,979 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 02:21:45,986 DEBUG [8568] [] MenuController start
+2022-11-22 02:21:45,986 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 02:21:45,994 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 02:21:45,995 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 02:21:45,997 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 02:21:45,997 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 02:21:45,997 DEBUG [8568] [] indexAction start
+2022-11-22 02:21:45,998 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:21:46,467 DEBUG [8568] [] indexAction end
+2022-11-22 02:21:46,467 DEBUG [8568] [] MenuController end
+2022-11-22 02:21:46,469 DEBUG [8568] [] finally
+2022-11-22 02:21:49,936 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 02:21:49,945 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 02:21:49,945 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 02:21:49,960 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 02:21:49,960 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 02:21:49,962 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 02:21:49,962 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:21:49,962 DEBUG [8568] [] indexAction start
+2022-11-22 02:21:49,962 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:21:51,245 DEBUG [8568] [] indexAction end
+2022-11-22 02:21:51,245 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 02:21:51,246 DEBUG [8568] [] finally
+2022-11-22 02:21:59,404 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 02:21:59,413 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 02:21:59,414 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 02:21:59,429 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 02:21:59,430 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 02:21:59,433 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 02:21:59,433 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:21:59,433 DEBUG [8568] [] SaveAction start
+2022-11-22 02:21:59,433 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:21:59,437 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 02:22:00,110 DEBUG [8568] [] SaveAction end
+2022-11-22 02:22:00,110 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 02:22:00,141 DEBUG [8568] [] finally
+2022-11-22 02:36:25,923 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist
+2022-11-22 02:36:25,940 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:36:25,941 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:36:25,952 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:36:25,953 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:36:25,956 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist
+2022-11-22 02:36:25,956 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:36:25,956 DEBUG [8568] [] indexAction start
+2022-11-22 02:36:25,956 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:26,536 DEBUG [8568] [] indexAction end
+2022-11-22 02:36:26,536 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:36:26,537 DEBUG [8568] [] finally
+2022-11-22 02:36:35,165 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:35,180 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:36:35,180 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:36:35,190 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:36:35,192 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:36:35,194 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:35,194 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:36:35,194 DEBUG [8568] [] SaveAction start
+2022-11-22 02:36:35,194 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:35,200 DEBUG [8568] [] INSERT INTO  T_YNS (word_book_name,word_lang_type,trans_lang_type ) VALUES ( :word_book_name,:word_lang_type,:trans_lang_type );
+2022-11-22 02:36:35,824 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:35,834 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:36:35,834 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:36:35,842 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:36:35,843 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:36:35,845 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:35,845 DEBUG [8568] [] ------------------------------session_check_false:uid=402ec4edc6e65d3318307f91684606a9-----&-----4149c9f3ce2a479c1ba75ce53838aa63
+2022-11-22 02:36:35,846 DEBUG [8568] [] SaveAction start
+2022-11-22 02:36:35,846 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:35,852 DEBUG [8568] [] INSERT INTO  T_YNS (word_book_name,word_lang_type,trans_lang_type ) VALUES ( :word_book_name,:word_lang_type,:trans_lang_type );
+2022-11-22 02:36:36,412 DEBUG [8568] [] SaveAction end
+2022-11-22 02:36:36,412 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:36:36,417 DEBUG [8568] [] finally
+2022-11-22 02:36:36,447 DEBUG [8568] [] Request URI : /ecc_test/Error/disp
+2022-11-22 02:36:36,457 DEBUG [8568] [] ErrorController start
+2022-11-22 02:36:36,457 DEBUG [8568] [] controllers/ErrorController.php: is exist
+2022-11-22 02:36:36,461 DEBUG [8568] [] ErrorForm: is exist
+2022-11-22 02:36:36,463 DEBUG [8568] [] ErrorForm: form value set 
+2022-11-22 02:36:36,465 DEBUG [8568] [] ------------------------------/ecc_test/Error/disp
+2022-11-22 02:36:36,465 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 02:36:36,465 DEBUG [8568] [] dispAction start
+2022-11-22 02:36:36,575 DEBUG [8568] [] dispAction end
+2022-11-22 02:36:36,576 DEBUG [8568] [] ErrorController end
+2022-11-22 02:36:36,576 DEBUG [8568] [] finally
+2022-11-22 02:36:45,967 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 02:36:45,978 DEBUG [8568] [] MenuController start
+2022-11-22 02:36:45,981 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 02:36:45,994 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 02:36:45,994 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 02:36:45,996 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 02:36:45,997 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 02:36:45,997 DEBUG [8568] [] indexAction start
+2022-11-22 02:36:45,997 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:46,374 DEBUG [8568] [] indexAction end
+2022-11-22 02:36:46,375 DEBUG [8568] [] MenuController end
+2022-11-22 02:36:46,375 DEBUG [8568] [] finally
+2022-11-22 02:36:48,610 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist
+2022-11-22 02:36:48,622 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:36:48,622 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:36:48,634 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:36:48,635 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:36:48,640 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist
+2022-11-22 02:36:48,640 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:36:48,640 DEBUG [8568] [] indexAction start
+2022-11-22 02:36:48,640 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:49,663 DEBUG [8568] [] indexAction end
+2022-11-22 02:36:49,663 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:36:49,664 DEBUG [8568] [] finally
+2022-11-22 02:36:55,444 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:55,455 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:36:55,456 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:36:55,467 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:36:55,470 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:36:55,472 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:36:55,472 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:36:55,472 DEBUG [8568] [] SaveAction start
+2022-11-22 02:36:55,472 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:36:55,478 DEBUG [8568] [] INSERT INTO  T_YNS (word_book_name,word_lang_type,trans_lang_type ) VALUES ( :word_book_name,:word_lang_type,:trans_lang_type );
+2022-11-22 02:36:56,157 DEBUG [8568] [] SaveAction end
+2022-11-22 02:36:56,157 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:36:56,163 DEBUG [8568] [] finally
+2022-11-22 02:37:02,176 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:37:02,184 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:37:02,185 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:37:02,193 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:37:02,194 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:37:02,220 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:37:02,221 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:37:02,221 DEBUG [8568] [] SaveAction start
+2022-11-22 02:37:02,221 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:37:02,229 DEBUG [8568] [] INSERT INTO  T_YNS (word_book_name,word_lang_type,trans_lang_type ) VALUES ( :word_book_name,:word_lang_type,:trans_lang_type );
+2022-11-22 02:37:02,762 DEBUG [8568] [] SaveAction end
+2022-11-22 02:37:02,762 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:37:02,770 DEBUG [8568] [] finally
+2022-11-22 02:37:08,101 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/back
+2022-11-22 02:37:08,109 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:37:08,109 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:37:08,119 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:37:08,120 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:37:08,123 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/back
+2022-11-22 02:37:08,123 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:37:08,123 DEBUG [8568] [] backAction start
+2022-11-22 02:37:08,124 DEBUG [8568] [] backAction end
+2022-11-22 02:37:08,124 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:37:08,124 DEBUG [8568] [] finally
+2022-11-22 02:37:08,151 DEBUG [8568] [] Request URI : /ecc_test/YNSWordList/Search
+2022-11-22 02:37:08,158 DEBUG [8568] [] YNSWordListController start
+2022-11-22 02:37:08,158 DEBUG [8568] [] controllers/YNSWordListController.php: is exist
+2022-11-22 02:37:08,167 DEBUG [8568] [] YNSWordListForm: is exist
+2022-11-22 02:37:08,169 DEBUG [8568] [] YNSWordListForm: form value set 
+2022-11-22 02:37:08,171 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordList/Search
+2022-11-22 02:37:08,171 DEBUG [8568] [] SearchAction start
+2022-11-22 02:37:08,171 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:37:08,654 DEBUG [8568] [] SearchAction end
+2022-11-22 02:37:08,654 DEBUG [8568] [] YNSWordListController end
+2022-11-22 02:37:08,654 DEBUG [8568] [] finally
+2022-11-22 02:53:59,663 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/index
+2022-11-22 02:53:59,671 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:53:59,671 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:53:59,678 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:53:59,679 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:53:59,702 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/index
+2022-11-22 02:53:59,702 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:53:59,702 DEBUG [8568] [] indexAction start
+2022-11-22 02:53:59,703 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:00,278 DEBUG [8568] [] indexAction end
+2022-11-22 02:54:00,278 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:00,279 DEBUG [8568] [] finally
+2022-11-22 02:54:03,893 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:03,904 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:03,905 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:03,913 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:03,913 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:03,915 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:03,915 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:03,915 DEBUG [8568] [] SaveAction start
+2022-11-22 02:54:03,916 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:04,726 DEBUG [8568] [] SaveAction end
+2022-11-22 02:54:04,726 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:04,727 DEBUG [8568] [] finally
+2022-11-22 02:54:06,325 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/back
+2022-11-22 02:54:06,336 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:06,336 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:06,347 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:06,348 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:06,351 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/back
+2022-11-22 02:54:06,351 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:06,352 DEBUG [8568] [] backAction start
+2022-11-22 02:54:06,352 DEBUG [8568] [] backAction end
+2022-11-22 02:54:06,352 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:06,353 DEBUG [8568] [] finally
+2022-11-22 02:54:06,384 DEBUG [8568] [] Request URI : /ecc_test/YNSWordList/Search
+2022-11-22 02:54:06,391 DEBUG [8568] [] YNSWordListController start
+2022-11-22 02:54:06,391 DEBUG [8568] [] controllers/YNSWordListController.php: is exist
+2022-11-22 02:54:06,398 DEBUG [8568] [] YNSWordListForm: is exist
+2022-11-22 02:54:06,399 DEBUG [8568] [] YNSWordListForm: form value set 
+2022-11-22 02:54:06,402 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordList/Search
+2022-11-22 02:54:06,402 DEBUG [8568] [] SearchAction start
+2022-11-22 02:54:06,402 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:06,978 DEBUG [8568] [] SearchAction end
+2022-11-22 02:54:06,979 DEBUG [8568] [] YNSWordListController end
+2022-11-22 02:54:06,979 DEBUG [8568] [] finally
+2022-11-22 02:54:08,888 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/index
+2022-11-22 02:54:08,897 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:08,898 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:08,910 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:08,911 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:08,913 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/index
+2022-11-22 02:54:08,913 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:08,913 DEBUG [8568] [] indexAction start
+2022-11-22 02:54:08,914 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:09,612 DEBUG [8568] [] indexAction end
+2022-11-22 02:54:09,612 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:09,612 DEBUG [8568] [] finally
+2022-11-22 02:54:17,110 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:17,121 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:17,121 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:17,130 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:17,132 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:17,135 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:17,135 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:17,135 DEBUG [8568] [] SaveAction start
+2022-11-22 02:54:17,135 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:17,746 DEBUG [8568] [] SaveAction end
+2022-11-22 02:54:17,746 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:17,747 DEBUG [8568] [] finally
+2022-11-22 02:54:21,301 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:21,310 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:21,310 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:21,321 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:21,322 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:21,324 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/Save
+2022-11-22 02:54:21,324 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:21,325 DEBUG [8568] [] SaveAction start
+2022-11-22 02:54:21,325 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:22,267 DEBUG [8568] [] SaveAction end
+2022-11-22 02:54:22,268 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:22,269 DEBUG [8568] [] finally
+2022-11-22 02:54:23,592 DEBUG [8568] [] Request URI : /ecc_test/YNSWordRegist/back
+2022-11-22 02:54:23,602 DEBUG [8568] [] YNSWordRegistController start
+2022-11-22 02:54:23,603 DEBUG [8568] [] controllers/YNSWordRegistController.php: is exist
+2022-11-22 02:54:23,611 DEBUG [8568] [] YNSWordRegistForm: is exist
+2022-11-22 02:54:23,612 DEBUG [8568] [] YNSWordRegistForm: form value set 
+2022-11-22 02:54:23,616 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordRegist/back
+2022-11-22 02:54:23,616 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 02:54:23,616 DEBUG [8568] [] backAction start
+2022-11-22 02:54:23,617 DEBUG [8568] [] backAction end
+2022-11-22 02:54:23,617 DEBUG [8568] [] YNSWordRegistController end
+2022-11-22 02:54:23,617 DEBUG [8568] [] finally
+2022-11-22 02:54:23,643 DEBUG [8568] [] Request URI : /ecc_test/YNSWordList/Search
+2022-11-22 02:54:23,650 DEBUG [8568] [] YNSWordListController start
+2022-11-22 02:54:23,651 DEBUG [8568] [] controllers/YNSWordListController.php: is exist
+2022-11-22 02:54:23,656 DEBUG [8568] [] YNSWordListForm: is exist
+2022-11-22 02:54:23,657 DEBUG [8568] [] YNSWordListForm: form value set 
+2022-11-22 02:54:23,659 DEBUG [8568] [] ------------------------------/ecc_test/YNSWordList/Search
+2022-11-22 02:54:23,659 DEBUG [8568] [] SearchAction start
+2022-11-22 02:54:23,659 DEBUG [8568] [] admin_no is 69
+2022-11-22 02:54:24,328 DEBUG [8568] [] SearchAction end
+2022-11-22 02:54:24,328 DEBUG [8568] [] YNSWordListController end
+2022-11-22 02:54:24,329 DEBUG [8568] [] finally

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.29, created on 2022-11-21 08:01:02
+/* Smarty version 3.1.29, created on 2022-11-22 02:54:21
   from "C:\xampp\htdocs\ecc_test\templates\ynsWordRegist.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_637b222e3d4bd9_40902753',
+  'unifunc' => 'content_637c2bcd67ba55_14402402',
   'file_dependency' => 
   array (
     '43d91e4d27834fff2be5c27346cad17a8ed906c1' => 
@@ -22,7 +22,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:footer.html' => 2,
   ),
 ),false)) {
-function content_637b222e3d4bd9_40902753 ($_smarty_tpl) {
+function content_637c2bcd67ba55_14402402 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
