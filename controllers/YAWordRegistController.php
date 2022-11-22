@@ -91,7 +91,6 @@ class YAWordRegistController extends BaseController {
 			$word_dto->word_book_name = $word;
 			$word_dto->word_lang_type = $word_lang_type;
 			$word_dto->id = $this->form->word_id;
-			//$this->form->word_id = $word_dto->id;
 			if ($screen_mode == 'update') {
 				$word_id = $this->form->word_id;
 				$dao = new YAWordService ( $this->pdo );
@@ -126,6 +125,8 @@ class YAWordRegistController extends BaseController {
 					$this->setMenu ();
 					$this->smarty->assign ( 'info_msg', I004);
 					$this->form->screen_mode = 'update';
+					//allow update after insertion
+					$this->form->word_id = $this->pdo->lastInsertId();
 					$this->smarty->assign ( 'form', $this->form );
 					$this->smarty->display ( 'yaWordRegist.html' );
 					// 登録出来ない場合

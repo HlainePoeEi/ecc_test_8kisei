@@ -279,3 +279,653 @@
 2022-11-22 02:54:24,328 DEBUG [8568] [] SearchAction end
 2022-11-22 02:54:24,328 DEBUG [8568] [] YNSWordListController end
 2022-11-22 02:54:24,329 DEBUG [8568] [] finally
+2022-11-22 03:32:49,496 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 03:32:49,513 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:32:49,514 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:32:49,533 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:32:49,533 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:32:49,536 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 03:32:49,536 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:32:49,536 DEBUG [8568] [] indexAction start
+2022-11-22 03:32:49,536 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:32:50,004 DEBUG [8568] [] indexAction end
+2022-11-22 03:32:50,005 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:32:50,006 DEBUG [8568] [] finally
+2022-11-22 03:32:55,151 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:32:55,167 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:32:55,168 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:32:55,197 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:32:55,199 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:32:55,202 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:32:55,202 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:32:55,202 DEBUG [8568] [] SaveAction start
+2022-11-22 03:32:55,202 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:32:55,207 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 03:32:55,823 DEBUG [8568] [] SaveAction end
+2022-11-22 03:32:55,824 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:32:55,830 DEBUG [8568] [] finally
+2022-11-22 03:33:05,075 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:33:05,083 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:33:05,084 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:33:05,095 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:33:05,096 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:33:05,098 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:33:05,098 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:33:05,098 DEBUG [8568] [] SaveAction start
+2022-11-22 03:33:05,099 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:33:05,507 DEBUG [8568] [] SaveAction end
+2022-11-22 03:33:05,507 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:33:05,508 DEBUG [8568] [] finally
+2022-11-22 03:33:29,346 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:33:29,354 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:33:29,354 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:33:29,364 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:33:29,365 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:33:29,377 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:33:29,377 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:33:29,377 DEBUG [8568] [] SaveAction start
+2022-11-22 03:33:29,378 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:33:29,837 DEBUG [8568] [] SaveAction end
+2022-11-22 03:33:29,837 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:33:29,837 DEBUG [8568] [] finally
+2022-11-22 03:37:33,657 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:37:33,668 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:37:33,668 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:37:33,681 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:37:33,682 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:37:33,702 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:37:33,702 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:37:33,702 DEBUG [8568] [] SaveAction start
+2022-11-22 03:37:33,703 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:37:34,134 DEBUG [8568] [] SaveAction end
+2022-11-22 03:37:34,134 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:37:34,135 DEBUG [8568] [] finally
+2022-11-22 03:37:36,394 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:37:36,403 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:37:36,404 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:37:36,416 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:37:36,418 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:37:36,420 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:37:36,420 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:37:36,420 DEBUG [8568] [] SaveAction start
+2022-11-22 03:37:36,420 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:37:36,918 DEBUG [8568] [] SaveAction end
+2022-11-22 03:37:36,918 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:37:36,919 DEBUG [8568] [] finally
+2022-11-22 03:39:45,765 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 03:39:45,776 DEBUG [8568] [] MenuController start
+2022-11-22 03:39:45,777 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 03:39:45,787 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 03:39:45,789 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 03:39:45,791 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 03:39:45,791 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 03:39:45,791 DEBUG [8568] [] indexAction start
+2022-11-22 03:39:45,791 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:39:46,160 DEBUG [8568] [] indexAction end
+2022-11-22 03:39:46,160 DEBUG [8568] [] MenuController end
+2022-11-22 03:39:46,160 DEBUG [8568] [] finally
+2022-11-22 03:39:48,310 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 03:39:48,322 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:39:48,322 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:39:48,333 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:39:48,334 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:39:48,344 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 03:39:48,345 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:39:48,345 DEBUG [8568] [] indexAction start
+2022-11-22 03:39:48,345 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:39:48,794 DEBUG [8568] [] indexAction end
+2022-11-22 03:39:48,794 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:39:48,795 DEBUG [8568] [] finally
+2022-11-22 03:40:00,813 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:40:00,825 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:40:00,826 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:40:00,845 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:40:00,847 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:40:00,853 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:40:00,853 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:40:00,853 DEBUG [8568] [] SaveAction start
+2022-11-22 03:40:00,854 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:40:00,858 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 03:40:01,462 DEBUG [8568] [] SaveAction end
+2022-11-22 03:40:01,462 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:40:01,468 DEBUG [8568] [] finally
+2022-11-22 03:40:21,175 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:40:21,186 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:40:21,186 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:40:21,200 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:40:21,201 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:40:21,214 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:40:21,214 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:40:21,214 DEBUG [8568] [] SaveAction start
+2022-11-22 03:40:21,215 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:40:21,637 DEBUG [8568] [] SaveAction end
+2022-11-22 03:40:21,637 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:40:21,637 DEBUG [8568] [] finally
+2022-11-22 03:40:23,517 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:40:23,524 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:40:23,525 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:40:23,538 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:40:23,539 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:40:23,541 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:40:23,541 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:40:23,541 DEBUG [8568] [] SaveAction start
+2022-11-22 03:40:23,542 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:40:23,948 DEBUG [8568] [] SaveAction end
+2022-11-22 03:40:23,948 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:40:23,949 DEBUG [8568] [] finally
+2022-11-22 03:40:26,055 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:40:26,067 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:40:26,067 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:40:26,085 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:40:26,085 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:40:26,088 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:40:26,088 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:40:26,088 DEBUG [8568] [] SaveAction start
+2022-11-22 03:40:26,088 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:40:26,665 DEBUG [8568] [] SaveAction end
+2022-11-22 03:40:26,665 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:40:26,666 DEBUG [8568] [] finally
+2022-11-22 03:40:27,704 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 03:40:27,712 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:40:27,712 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:40:27,726 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:40:27,727 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:40:27,729 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 03:40:27,730 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:40:27,730 DEBUG [8568] [] SaveAction start
+2022-11-22 03:40:27,730 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:40:28,256 DEBUG [8568] [] SaveAction end
+2022-11-22 03:40:28,257 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:40:28,261 DEBUG [8568] [] finally
+2022-11-22 03:59:53,163 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 03:59:53,172 DEBUG [8568] [] MenuController start
+2022-11-22 03:59:53,173 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 03:59:53,183 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 03:59:53,183 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 03:59:53,186 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 03:59:53,186 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 03:59:53,186 DEBUG [8568] [] indexAction start
+2022-11-22 03:59:53,186 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:59:53,506 DEBUG [8568] [] indexAction end
+2022-11-22 03:59:53,506 DEBUG [8568] [] MenuController end
+2022-11-22 03:59:53,507 DEBUG [8568] [] finally
+2022-11-22 03:59:56,779 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 03:59:56,792 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 03:59:56,792 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 03:59:56,804 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 03:59:56,806 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 03:59:56,808 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 03:59:56,808 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 03:59:56,808 DEBUG [8568] [] indexAction start
+2022-11-22 03:59:56,808 DEBUG [8568] [] admin_no is 69
+2022-11-22 03:59:57,299 DEBUG [8568] [] indexAction end
+2022-11-22 03:59:57,299 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 03:59:57,299 DEBUG [8568] [] finally
+2022-11-22 04:00:05,496 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:00:05,505 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:00:05,506 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:00:05,516 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:00:05,517 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:00:05,533 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:00:05,533 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:00:05,533 DEBUG [8568] [] SaveAction start
+2022-11-22 04:00:05,534 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:00:05,552 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:00:06,009 DEBUG [8568] [] SaveAction end
+2022-11-22 04:00:06,009 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:00:06,015 DEBUG [8568] [] finally
+2022-11-22 04:00:18,694 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:00:18,701 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:00:18,701 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:00:18,714 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:00:18,715 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:00:18,717 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:00:18,717 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:00:18,718 DEBUG [8568] [] SaveAction start
+2022-11-22 04:00:18,718 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:00:19,100 DEBUG [8568] [] SaveAction end
+2022-11-22 04:00:19,100 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:00:19,100 DEBUG [8568] [] finally
+2022-11-22 04:19:25,253 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 04:19:25,262 DEBUG [8568] [] MenuController start
+2022-11-22 04:19:25,262 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 04:19:25,272 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 04:19:25,273 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 04:19:25,275 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 04:19:25,275 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:19:25,275 DEBUG [8568] [] indexAction start
+2022-11-22 04:19:25,276 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:19:25,650 DEBUG [8568] [] indexAction end
+2022-11-22 04:19:25,650 DEBUG [8568] [] MenuController end
+2022-11-22 04:19:25,651 DEBUG [8568] [] finally
+2022-11-22 04:19:28,928 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:19:28,936 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:19:28,936 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:19:28,951 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:19:28,952 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:19:28,954 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 04:19:28,954 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:19:28,954 DEBUG [8568] [] indexAction start
+2022-11-22 04:19:28,955 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:19:29,504 DEBUG [8568] [] indexAction end
+2022-11-22 04:19:29,505 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:19:29,505 DEBUG [8568] [] finally
+2022-11-22 04:19:37,461 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:19:37,472 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:19:37,472 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:19:37,489 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:19:37,490 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:19:37,492 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:19:37,492 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:19:37,492 DEBUG [8568] [] SaveAction start
+2022-11-22 04:19:37,492 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:19:37,497 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:19:38,038 DEBUG [8568] [] SaveAction end
+2022-11-22 04:19:38,038 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:19:38,046 DEBUG [8568] [] finally
+2022-11-22 04:19:46,038 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:19:46,050 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:19:46,050 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:19:46,068 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:19:46,069 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:19:46,072 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:19:46,072 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:19:46,072 DEBUG [8568] [] SaveAction start
+2022-11-22 04:19:46,073 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:19:46,703 DEBUG [8568] [] SaveAction end
+2022-11-22 04:19:46,704 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:19:46,704 DEBUG [8568] [] finally
+2022-11-22 04:20:15,876 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:20:15,884 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:20:15,884 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:20:15,897 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:20:15,898 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:20:15,900 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:20:15,900 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:20:15,901 DEBUG [8568] [] SaveAction start
+2022-11-22 04:20:15,901 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:20:16,314 DEBUG [8568] [] SaveAction end
+2022-11-22 04:20:16,314 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:20:16,316 DEBUG [8568] [] finally
+2022-11-22 04:24:25,919 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 04:24:25,928 DEBUG [8568] [] MenuController start
+2022-11-22 04:24:25,928 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 04:24:25,936 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 04:24:25,937 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 04:24:25,961 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 04:24:25,961 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:24:25,961 DEBUG [8568] [] indexAction start
+2022-11-22 04:24:25,962 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:24:26,394 DEBUG [8568] [] indexAction end
+2022-11-22 04:24:26,395 DEBUG [8568] [] MenuController end
+2022-11-22 04:24:26,395 DEBUG [8568] [] finally
+2022-11-22 04:24:29,997 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:24:30,002 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:24:30,003 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:24:52,782 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:24:52,792 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:24:52,792 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:24:52,809 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:24:52,810 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:24:52,812 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 04:24:52,812 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:24:52,812 DEBUG [8568] [] indexAction start
+2022-11-22 04:24:52,813 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:24:53,249 DEBUG [8568] [] indexAction end
+2022-11-22 04:24:53,249 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:24:53,250 DEBUG [8568] [] finally
+2022-11-22 04:25:00,227 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:25:00,235 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:25:00,237 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:25:00,249 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:25:00,250 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:25:00,254 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:25:00,254 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:25:00,255 DEBUG [8568] [] SaveAction start
+2022-11-22 04:25:00,255 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:25:00,258 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:25:00,841 DEBUG [8568] [] SaveAction end
+2022-11-22 04:25:00,842 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:25:00,849 DEBUG [8568] [] finally
+2022-11-22 04:25:05,542 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:25:05,550 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:25:05,552 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:25:05,564 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:25:05,566 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:25:05,568 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:25:05,568 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:25:05,569 DEBUG [8568] [] SaveAction start
+2022-11-22 04:25:05,570 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:25:06,128 DEBUG [8568] [] SaveAction end
+2022-11-22 04:25:06,128 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:25:06,129 DEBUG [8568] [] finally
+2022-11-22 04:32:19,020 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 04:32:19,026 DEBUG [8568] [] MenuController start
+2022-11-22 04:32:19,026 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 04:32:19,037 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 04:32:19,037 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 04:32:19,040 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 04:32:19,040 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:32:19,040 DEBUG [8568] [] indexAction start
+2022-11-22 04:32:19,040 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:32:19,408 DEBUG [8568] [] indexAction end
+2022-11-22 04:32:19,408 DEBUG [8568] [] MenuController end
+2022-11-22 04:32:19,409 DEBUG [8568] [] finally
+2022-11-22 04:32:21,088 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:32:21,094 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:32:21,094 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:32:21,107 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:32:21,108 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:32:21,110 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 04:32:21,110 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:32:21,110 DEBUG [8568] [] indexAction start
+2022-11-22 04:32:21,110 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:32:21,644 DEBUG [8568] [] indexAction end
+2022-11-22 04:32:21,644 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:32:21,645 DEBUG [8568] [] finally
+2022-11-22 04:32:27,503 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:32:27,511 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:32:27,511 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:32:27,523 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:32:27,523 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:32:27,525 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:32:27,525 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:32:27,525 DEBUG [8568] [] SaveAction start
+2022-11-22 04:32:27,526 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:32:27,529 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:32:28,083 DEBUG [8568] [] SaveAction end
+2022-11-22 04:32:28,084 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:32:28,090 DEBUG [8568] [] finally
+2022-11-22 04:32:33,401 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:32:33,409 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:32:33,409 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:32:33,426 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:32:33,427 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:32:33,431 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:32:33,431 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:32:33,432 DEBUG [8568] [] SaveAction start
+2022-11-22 04:32:33,432 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:32:34,016 DEBUG [8568] [] SaveAction end
+2022-11-22 04:32:34,016 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:32:34,018 DEBUG [8568] [] finally
+2022-11-22 04:46:41,661 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:46:41,851 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:46:41,852 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:46:42,075 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:46:42,091 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:46:42,105 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:46:42,105 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:46:42,105 DEBUG [8568] [] SaveAction start
+2022-11-22 04:46:42,106 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:46:42,664 DEBUG [8568] [] rollback
+2022-11-22 04:46:42,664 ERROR [8568] [] 予期しない例外が発生しました。
+ --> Smarty: unable to write file C:\xampp\htdocs\ecc_test\templates_c\fd8f222932203b2f31d6b32e03a34bfb9177129e_0.file.yaWordRegist.html.php <-- 
+2022-11-22 04:46:42,684 DEBUG [8568] [] finally
+2022-11-22 04:46:42,734 DEBUG [8568] [] Request URI : /ecc_test/Error/disp
+2022-11-22 04:46:42,747 DEBUG [8568] [] ErrorController start
+2022-11-22 04:46:42,747 DEBUG [8568] [] controllers/ErrorController.php: is exist
+2022-11-22 04:46:42,764 DEBUG [8568] [] ErrorForm: is exist
+2022-11-22 04:46:42,774 DEBUG [8568] [] ErrorForm: form value set 
+2022-11-22 04:46:42,776 DEBUG [8568] [] ------------------------------/ecc_test/Error/disp
+2022-11-22 04:46:42,776 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:46:42,776 DEBUG [8568] [] dispAction start
+2022-11-22 04:46:42,930 DEBUG [8568] [] dispAction end
+2022-11-22 04:46:42,930 DEBUG [8568] [] ErrorController end
+2022-11-22 04:46:42,930 DEBUG [8568] [] finally
+2022-11-22 04:46:53,272 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 04:46:53,280 DEBUG [8568] [] MenuController start
+2022-11-22 04:46:53,281 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 04:46:53,429 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 04:46:53,441 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 04:46:53,443 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 04:46:53,443 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:46:53,443 DEBUG [8568] [] indexAction start
+2022-11-22 04:46:53,444 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:46:53,862 DEBUG [8568] [] indexAction end
+2022-11-22 04:46:53,863 DEBUG [8568] [] MenuController end
+2022-11-22 04:46:53,863 DEBUG [8568] [] finally
+2022-11-22 04:46:56,149 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:46:56,161 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:46:56,162 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:46:56,176 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:46:56,177 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:46:56,179 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 04:46:56,179 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:46:56,179 DEBUG [8568] [] indexAction start
+2022-11-22 04:46:56,180 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:46:56,575 DEBUG [8568] [] indexAction end
+2022-11-22 04:46:56,576 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:46:56,577 DEBUG [8568] [] finally
+2022-11-22 04:47:04,002 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:47:04,009 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:47:04,009 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:47:04,020 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:47:04,022 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:47:04,038 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:47:04,038 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:47:04,038 DEBUG [8568] [] SaveAction start
+2022-11-22 04:47:04,039 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:47:04,054 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:47:04,348 DEBUG [8568] [] SaveAction end
+2022-11-22 04:47:04,348 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:47:04,355 DEBUG [8568] [] finally
+2022-11-22 04:47:09,003 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:47:09,011 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:47:09,012 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:47:09,027 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:47:09,027 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:47:09,032 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:47:09,032 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:47:09,032 DEBUG [8568] [] SaveAction start
+2022-11-22 04:47:09,032 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:47:09,430 DEBUG [8568] [] SaveAction end
+2022-11-22 04:47:09,430 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:47:09,430 DEBUG [8568] [] finally
+2022-11-22 04:54:23,741 DEBUG [8568] [] Request URI : /ecc_test/Lgin
+2022-11-22 04:54:23,754 DEBUG [8568] [] LginController start
+2022-11-22 04:54:23,754 DEBUG [8568] [] controllers/LginController.php: is not exist
+2022-11-22 04:54:23,755 DEBUG [8568] [] finally
+2022-11-22 04:54:23,790 DEBUG [8568] [] Request URI : /ecc_test/Error/disp
+2022-11-22 04:54:23,800 DEBUG [8568] [] ErrorController start
+2022-11-22 04:54:23,800 DEBUG [8568] [] controllers/ErrorController.php: is exist
+2022-11-22 04:54:23,802 DEBUG [8568] [] ErrorForm: is exist
+2022-11-22 04:54:23,803 DEBUG [8568] [] ErrorForm: form value set 
+2022-11-22 04:54:23,805 DEBUG [8568] [] ------------------------------/ecc_test/Error/disp
+2022-11-22 04:54:23,806 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:54:23,806 DEBUG [8568] [] dispAction start
+2022-11-22 04:54:23,883 DEBUG [8568] [] dispAction end
+2022-11-22 04:54:23,883 DEBUG [8568] [] ErrorController end
+2022-11-22 04:54:23,884 DEBUG [8568] [] finally
+2022-11-22 04:54:29,235 DEBUG [8568] [] Request URI : /ecc_test/Login
+2022-11-22 04:54:29,244 DEBUG [8568] [] LoginController start
+2022-11-22 04:54:29,244 DEBUG [8568] [] controllers/LoginController.php: is exist
+2022-11-22 04:54:29,331 DEBUG [8568] [] LoginForm: is exist
+2022-11-22 04:54:29,347 DEBUG [8568] [] LoginForm: form value set 
+2022-11-22 04:54:29,350 DEBUG [8568] [] ------------------------------/ecc_test/Login
+2022-11-22 04:54:29,350 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:54:29,350 DEBUG [8568] [] indexAction start
+2022-11-22 04:54:29,456 DEBUG [8568] [] indexAction end
+2022-11-22 04:54:29,456 DEBUG [8568] [] LoginController end
+2022-11-22 04:54:29,456 DEBUG [8568] [] finally
+2022-11-22 04:54:33,792 DEBUG [8568] [] Request URI : /ecc_test/Login/login
+2022-11-22 04:54:33,802 DEBUG [8568] [] LoginController start
+2022-11-22 04:54:33,802 DEBUG [8568] [] controllers/LoginController.php: is exist
+2022-11-22 04:54:33,810 DEBUG [8568] [] LoginForm: is exist
+2022-11-22 04:54:33,811 DEBUG [8568] [] LoginForm: form value set 
+2022-11-22 04:54:33,815 DEBUG [8568] [] ------------------------------/ecc_test/Login/login
+2022-11-22 04:54:33,815 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:54:33,815 DEBUG [8568] [] loginAction start
+2022-11-22 04:54:34,035 DEBUG [8568] [] loginAction end
+2022-11-22 04:54:34,035 DEBUG [8568] [] LoginController end
+2022-11-22 04:54:34,036 DEBUG [8568] [] finally
+2022-11-22 04:54:34,074 DEBUG [8568] [] Request URI : /ecc_test/Menu
+2022-11-22 04:54:34,084 DEBUG [8568] [] MenuController start
+2022-11-22 04:54:34,084 DEBUG [8568] [] controllers/MenuController.php: is exist
+2022-11-22 04:54:34,098 DEBUG [8568] [] MenuForm: is exist
+2022-11-22 04:54:34,099 DEBUG [8568] [] MenuForm: form value set 
+2022-11-22 04:54:34,101 DEBUG [8568] [] ------------------------------/ecc_test/Menu
+2022-11-22 04:54:34,101 DEBUG [8568] [] ------------------------------login_start_check
+2022-11-22 04:54:34,101 DEBUG [8568] [] indexAction start
+2022-11-22 04:54:34,101 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:54:34,447 DEBUG [8568] [] indexAction end
+2022-11-22 04:54:34,448 DEBUG [8568] [] MenuController end
+2022-11-22 04:54:34,448 DEBUG [8568] [] finally
+2022-11-22 04:57:01,361 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 04:57:01,367 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:57:01,368 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:57:01,379 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:57:01,379 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:57:01,381 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 04:57:01,381 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:57:01,382 DEBUG [8568] [] indexAction start
+2022-11-22 04:57:01,382 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:57:01,687 DEBUG [8568] [] indexAction end
+2022-11-22 04:57:01,687 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:57:01,687 DEBUG [8568] [] finally
+2022-11-22 04:57:10,456 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:57:10,465 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:57:10,466 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:57:10,481 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:57:10,482 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:57:10,484 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:57:10,484 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:57:10,484 DEBUG [8568] [] SaveAction start
+2022-11-22 04:57:10,484 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:57:10,489 DEBUG [8568] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 04:57:10,925 DEBUG [8568] [] SaveAction end
+2022-11-22 04:57:10,925 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:57:10,934 DEBUG [8568] [] finally
+2022-11-22 04:57:15,402 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 04:57:15,408 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 04:57:15,409 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 04:57:15,418 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 04:57:15,419 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 04:57:15,421 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 04:57:15,422 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 04:57:15,422 DEBUG [8568] [] SaveAction start
+2022-11-22 04:57:15,422 DEBUG [8568] [] admin_no is 69
+2022-11-22 04:57:15,740 DEBUG [8568] [] SaveAction end
+2022-11-22 04:57:15,740 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 04:57:15,741 DEBUG [8568] [] finally
+2022-11-22 05:00:09,067 DEBUG [8568] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:00:09,072 DEBUG [8568] [] YAWordRegistController start
+2022-11-22 05:00:09,073 DEBUG [8568] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:00:09,084 DEBUG [8568] [] YAWordRegistForm: is exist
+2022-11-22 05:00:09,084 DEBUG [8568] [] YAWordRegistForm: form value set 
+2022-11-22 05:00:09,107 DEBUG [8568] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:00:09,107 DEBUG [8568] [] ------------------------------session_check_true
+2022-11-22 05:00:09,108 DEBUG [8568] [] SaveAction start
+2022-11-22 05:00:09,108 DEBUG [8568] [] admin_no is 69
+2022-11-22 05:00:09,382 DEBUG [8568] [] SaveAction end
+2022-11-22 05:00:09,383 DEBUG [8568] [] YAWordRegistController end
+2022-11-22 05:00:09,383 DEBUG [8568] [] finally
+2022-11-22 05:00:56,182 DEBUG [10480] [] Request URI : /ecc_test/Menu
+2022-11-22 05:00:56,190 DEBUG [10480] [] MenuController start
+2022-11-22 05:00:56,190 DEBUG [10480] [] controllers/MenuController.php: is exist
+2022-11-22 05:00:56,197 DEBUG [10480] [] MenuForm: is exist
+2022-11-22 05:00:56,198 DEBUG [10480] [] MenuForm: form value set 
+2022-11-22 05:00:56,207 DEBUG [10480] [] ------------------------------/ecc_test/Menu
+2022-11-22 05:00:56,207 DEBUG [10480] [] ------------------------------login_start_check
+2022-11-22 05:00:56,207 DEBUG [10480] [] indexAction start
+2022-11-22 05:00:56,207 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:00:56,456 DEBUG [10480] [] indexAction end
+2022-11-22 05:00:56,456 DEBUG [10480] [] MenuController end
+2022-11-22 05:00:56,456 DEBUG [10480] [] finally
+2022-11-22 05:00:59,549 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 05:00:59,556 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:00:59,556 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:00:59,567 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:00:59,569 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:00:59,594 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 05:00:59,594 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:00:59,595 DEBUG [10480] [] indexAction start
+2022-11-22 05:00:59,595 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:00:59,894 DEBUG [10480] [] indexAction end
+2022-11-22 05:00:59,895 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:00:59,895 DEBUG [10480] [] finally
+2022-11-22 05:01:06,192 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:01:06,202 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:01:06,202 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:01:06,215 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:01:06,217 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:01:06,219 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:01:06,219 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:01:06,220 DEBUG [10480] [] SaveAction start
+2022-11-22 05:01:06,220 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:01:06,224 DEBUG [10480] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 05:01:06,720 DEBUG [10480] [] SaveAction end
+2022-11-22 05:01:06,721 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:01:06,744 DEBUG [10480] [] finally
+2022-11-22 05:01:11,913 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:01:11,922 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:01:11,922 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:01:11,936 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:01:11,937 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:01:11,938 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:01:11,939 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:01:11,939 DEBUG [10480] [] SaveAction start
+2022-11-22 05:01:11,939 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:01:12,301 DEBUG [10480] [] SaveAction end
+2022-11-22 05:01:12,301 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:01:12,301 DEBUG [10480] [] finally
+2022-11-22 05:14:31,031 DEBUG [10480] [] Request URI : /ecc_test/Menu
+2022-11-22 05:14:31,040 DEBUG [10480] [] MenuController start
+2022-11-22 05:14:31,041 DEBUG [10480] [] controllers/MenuController.php: is exist
+2022-11-22 05:14:31,048 DEBUG [10480] [] MenuForm: is exist
+2022-11-22 05:14:31,049 DEBUG [10480] [] MenuForm: form value set 
+2022-11-22 05:14:31,051 DEBUG [10480] [] ------------------------------/ecc_test/Menu
+2022-11-22 05:14:31,051 DEBUG [10480] [] ------------------------------login_start_check
+2022-11-22 05:14:31,051 DEBUG [10480] [] indexAction start
+2022-11-22 05:14:31,052 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:14:31,290 DEBUG [10480] [] indexAction end
+2022-11-22 05:14:31,290 DEBUG [10480] [] MenuController end
+2022-11-22 05:14:31,290 DEBUG [10480] [] finally
+2022-11-22 05:14:33,306 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist
+2022-11-22 05:14:33,311 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:14:33,311 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:14:33,323 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:14:33,323 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:14:33,325 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist
+2022-11-22 05:14:33,325 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:14:33,325 DEBUG [10480] [] indexAction start
+2022-11-22 05:14:33,326 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:14:33,706 DEBUG [10480] [] indexAction end
+2022-11-22 05:14:33,706 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:14:33,707 DEBUG [10480] [] finally
+2022-11-22 05:14:41,421 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:14:41,429 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:14:41,430 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:14:41,445 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:14:41,446 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:14:41,448 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:14:41,449 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:14:41,449 DEBUG [10480] [] SaveAction start
+2022-11-22 05:14:41,449 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:14:41,454 DEBUG [10480] [] INSERT INTO  T_YA (word_book_name,word_lang_type ) VALUES ( :word_book_name,:word_lang_type );
+2022-11-22 05:14:41,841 DEBUG [10480] [] SaveAction end
+2022-11-22 05:14:41,841 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:14:41,847 DEBUG [10480] [] finally
+2022-11-22 05:16:43,164 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:16:43,172 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:16:43,172 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:16:43,184 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:16:43,185 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:16:43,207 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:16:43,207 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:16:43,207 DEBUG [10480] [] SaveAction start
+2022-11-22 05:16:43,207 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:16:43,534 DEBUG [10480] [] SaveAction end
+2022-11-22 05:16:43,534 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:16:43,534 DEBUG [10480] [] finally
+2022-11-22 05:17:30,987 DEBUG [10480] [] Request URI : /ecc_test/YAWordRegist/Save
+2022-11-22 05:17:30,993 DEBUG [10480] [] YAWordRegistController start
+2022-11-22 05:17:30,993 DEBUG [10480] [] controllers/YAWordRegistController.php: is exist
+2022-11-22 05:17:31,002 DEBUG [10480] [] YAWordRegistForm: is exist
+2022-11-22 05:17:31,002 DEBUG [10480] [] YAWordRegistForm: form value set 
+2022-11-22 05:17:31,005 DEBUG [10480] [] ------------------------------/ecc_test/YAWordRegist/Save
+2022-11-22 05:17:31,005 DEBUG [10480] [] ------------------------------session_check_true
+2022-11-22 05:17:31,005 DEBUG [10480] [] SaveAction start
+2022-11-22 05:17:31,006 DEBUG [10480] [] admin_no is 69
+2022-11-22 05:17:31,295 DEBUG [10480] [] SaveAction end
+2022-11-22 05:17:31,295 DEBUG [10480] [] YAWordRegistController end
+2022-11-22 05:17:31,295 DEBUG [10480] [] finally
