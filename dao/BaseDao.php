@@ -366,7 +366,7 @@ class BaseDao
 
 		return $stmt->execute();
 	}
-	
+
 	/*
 	 * 複数件データを挿入する
 	 */

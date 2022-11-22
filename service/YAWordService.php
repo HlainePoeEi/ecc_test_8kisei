@@ -46,11 +46,11 @@ class YAWordService extends BaseService
 		return $dao->updateWordInfo($dto);
 	}
 
-	public function getWordListData($form, $flg){
+	public function getWordListData($form, $flg)
+	{
 		// データベース接続
 		$dao = new T_YADao();
 		// 単語リストを取得すること
 		return $dao->getWordListData($form, $flg);
 	}
-
 }

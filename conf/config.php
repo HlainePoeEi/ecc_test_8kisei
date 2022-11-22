@@ -55,7 +55,7 @@ define("GROUP_STUDENT_FOLDER_NAME", "groupStudent_temp");
 define("GROUP_FOLDER_NAME", "group_temp");
 define("STUDENT_NO_CHANGE_FOLDER_NAME", "studentnochange_temp");
 
-define("DB_CONNECT_STRING", "mysql:host=localhost:3308;dbname=eccsaishin;charset=utf8");
+define("DB_CONNECT_STRING", "mysql:host=localhost;dbname=eccsaishin;charset=utf8");
 define("DB_CONNECT_USER", "root");
 define("DB_CONNECT_PASSWORD", "");
 

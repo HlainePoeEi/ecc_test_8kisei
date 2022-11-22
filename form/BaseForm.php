@@ -1,4 +1,5 @@
 <?php
+
 /*****************************************************
  *  株式会社ECC 新商品開発プロジェクト
  *  PHPシステム構築フレームワーク
@@ -11,14 +12,12 @@
  * FORM基底クラス
  *
  */
-class BaseForm {
+class BaseForm
+{
 
 	public $menuOpen;
 
 	public $menuStatus;
-	
+
 	public $uid;
-
 }
-
-?>
