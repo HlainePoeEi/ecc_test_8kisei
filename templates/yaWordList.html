@@ -78,8 +78,7 @@
 </head>
 
 <body class="pushmenu-push">
-  <form id="main_form" action="{$smarty.const.HOME_DIR}YNSWordList/Search" method="post">
-    <input type="hidden" id="org_no" name="org_no" value="{$form->org_no}" />
+  <form id="main_form" action="{$smarty.const.HOME_DIR}YAWordList/Search" method="post">
     <input type="hidden" id="msg" name="msg" value="{$msg}" />
     <input type="hidden" id="error_msg" name="error_msg" value="{$error_msg}" />
     <input type="hidden" id="id" name="id" value="{$form->id}" />
@@ -124,13 +123,13 @@
             {/if}
           </section>
           <section class="content">
-            <p>>> <span class="title">YNS / 単語一覧</span></p>
+            <p>>> <span class="title">YA / 単語一覧</span></p>
             <br />
             <!-- <div class="divideCol"> -->
             <!-- <input class="text" type="text" name="search_word" id="search_word" maxlength="512" size="30" />
               <input type="submit" id="btn_search" name="search" title="検索" class="btn_search1" alt="search" value="" /> -->
             <input type="button" id="add" name="add_word" class="btn_add1" value="" title="新規追加"
-              onclick="javascript:doInsert('{$smarty.const.HOME_DIR}YNSWordRegist/index')" />
+              onclick="javascript:doInsert('{$smarty.const.HOME_DIR}YAWordRegist/index')" />
             <!-- </div> -->
             <br />
             <table class="tbl_search" id="tbl_search">
@@ -138,9 +137,6 @@
                 <tr>
                   <th width="100px;">単語名</th>
                   <th width="100px;">単語言語</th>
-                  <th width="100px;">通訳言語</th>
-                  <th width="70px;"></th>
-                  <th width="70px;"></th>
                   <th width="50px;">Action</th>
                 </tr>
               </thead>
@@ -152,27 +148,13 @@
                   <td width="100px;">en</td>
                   {else}
                   <td width="100px;">ja</td>
-                  {/if} {if $result->trans_lang_type eq '001'}
-                  <td width="100px;">en</td>
-                  {else}
-                  <td width="100px;">ja</td>
-                  {/if}
-                  <!-- text to speech using php by STTO -->
-                  <td width="70px;">
-                    <input type="button" class="btn-sound_list1" name="v1"
-                      onclick="trans1('{$result->word_book_name}','{$smarty.const.HOME_DIR}YNSWordList/sound')" />
-                  </td>
-                  <!-- text to speech using php by NMZ -->
-                  <td width="70px;">
-                    <input type="button" class="btn_sound" name="audio" 　
-                      onclick="trans('{$result->id}','{$smarty.const.HOME_DIR}YNSWordList/audio')" />
-                  </td>
+                  {/if} 
                   <td width="50px;">
                     <input type="button" class="btn_edit1" name="edit" title="編集"
-                      onclick="trans('{$result->id}','{$smarty.const.HOME_DIR}YNSWordRegist/index')" />
+                      onclick="trans('{$result->id}','{$smarty.const.HOME_DIR}YAWordRegist/index')" />
 
                     <input type="button" class="btn_delete1" id="btn_del" name="edit" title="削除"
-                      onclick="checkDelete('{$result->id}','{$smarty.const.HOME_DIR}YNSWordRegist/delete')" />
+                      onclick="checkDelete('{$result->id}','{$smarty.const.HOME_DIR}YAWordRegist/delete')" />
                   </td>
                 </tr>
                 {/foreach} {/if}
@@ -191,19 +173,6 @@
   </form>
   { literal }
   <script>
-    if ("speechSynthesis" in window) {
-      //   alert("このブラウザは音声合成に対応しています。🎉")
-    } else {
-      alert("このブラウザは音声合成に対応していません。😭");
-    }
-
-    // 発言を作成
-    const uttr = new SpeechSynthesisUtterance("Hello World!");
-    uttr.voice = speechSynthesis
-      .getVoices()
-      .filter((voice) => voice.name == "Google US English")[0];
-
-    // { literal }
     function setDataTableData() {
       var page = 0;
       var page_row = 10;
@@ -306,8 +275,6 @@
         $("#main_form").submit();
       }
     }
-
-      // { /literal}
   </script>
   { /literal}
 </body>
