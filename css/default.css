@@ -970,7 +970,7 @@ thead {
 }
 
 .btn_add1 {
-    background: url(../image/new.png);
+    background: url(../image/addIcon.png);
     background-color: none;
     background-size: 40px 40px;
     background-repeat: no-repeat;
@@ -1021,12 +1021,12 @@ thead {
     font-size: 16px;
 }
 .btn_edit1 {
-    background: url(../image/edit.png);
+    background: url(../image/editIcon.png);
     background-color: none;
-    background-size: 30px 30px;
+    background-size: 20px 20px;
     background-repeat: no-repeat;
     width: 30px;
-    height: 30px;
+    height: 20px;
     border: 0;
     text-align: right;
     font-size: 16px;
@@ -1150,13 +1150,13 @@ thead {
 }
 
 .btn_delete1 {
-    background: url(../image/delete.png);
+    background: url(../image/deleteIcon.png);
     background-color: none;
-    background-size: 25px 25px;
+    background-size: 28px 28px;
     background-repeat: no-repeat;
     margin-left: 10px;
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border: 0;
 }
 
