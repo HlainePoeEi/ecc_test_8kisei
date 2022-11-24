@@ -1152,11 +1152,11 @@ thead {
 .btn_delete1 {
     background: url(../image/deleteIcon.png);
     background-color: none;
-    background-size: 25px 25px;
+    background-size: 28px 28px;
     background-repeat: no-repeat;
     margin-left: 10px;
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border: 0;
 }
 
