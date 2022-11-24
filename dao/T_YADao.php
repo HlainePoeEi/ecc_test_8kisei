@@ -138,4 +138,16 @@ class T_YADao extends BaseDao
             $stmt->bindParam(":word", $word, PDO::PARAM_STR);
         }
     }
+
+     public function deleteWordInfo($dto)
+    {
+        $query = " DELETE ";
+        $query .= " FROM ";
+        $query .= " T_YA ";
+        $query .= " WHERE ";
+        $query .= " id = :id ";
+        $stmt = $this->pdo->prepare($query);
+        $stmt->bindParam(":id", $dto->id, PDO::PARAM_STR);
+        return parent::delete($stmt);
+    }
 }

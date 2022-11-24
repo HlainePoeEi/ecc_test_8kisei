@@ -53,4 +53,12 @@ class YAWordService extends BaseService
 		// 単語リストを取得すること
 		return $dao->getWordListData($form, $flg);
 	}
+
+	public function deleteWordInfo($dto)
+	{
+		// データベース接続
+		$dao = new T_YADao();
+		// Ｔ管理者教師データを更新すること
+		return $dao->deleteWordInfo($dto);
+	}
 }
