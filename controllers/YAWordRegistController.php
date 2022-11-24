@@ -29,7 +29,7 @@ class YAWordRegistController extends BaseController
 	{
 		if ($this->check_login() == true) {
 			$word_service = new YAWordService($this->pdo);
-			$word_id = $this->form->word_id;
+			$word_id = $this->form->id;
 			$screen_mode = $this->form->screen_mode;
 			$word_category = "";
 			$err_msg = "";
@@ -103,7 +103,7 @@ class YAWordRegistController extends BaseController
 				if ($result == 1) {
 					// 登録完了
 					$this->setMenu();
-					$this->smarty->assign('info_msg', I004);
+					$this->smarty->assign('info_msg', I007);
 					$this->form->screen_mode = 'update';
 					$this->smarty->assign('form', $this->form);
 					$this->smarty->display('yaWordRegist.html');
