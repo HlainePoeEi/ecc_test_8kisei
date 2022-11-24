@@ -278,6 +278,15 @@ section.content {
     display: inline-block;
     vertical-align: middle;
 }
+.yaWordMenuIcon {
+    border: 0px;
+    width: 35px;
+    height: 35px;
+    background: url(../image/book-stack.png) left top no-repeat;
+    background-size: 35px 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /*-------------------menu------------------*/
 
