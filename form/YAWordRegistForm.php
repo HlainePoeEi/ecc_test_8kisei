@@ -4,6 +4,8 @@ require_once 'BaseForm.php';
 
 class YAWordRegistForm extends BaseForm
 {
+    public $id;
+    
     public $word_id;
 
     public $word_book_name;
