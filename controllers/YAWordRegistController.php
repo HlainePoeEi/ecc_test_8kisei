@@ -170,4 +170,37 @@ class YAWordRegistController extends BaseController
 		$_SESSION['search_page_order_column'] = $this->form->search_page_order_column;
 		$_SESSION['search_page_order_dir'] = $this->form->search_page_order_dir;
 	}
+	public function deleteAction()
+	{
+		if ($this->check_login() == true) {
+			$word_service = new YAWordService($this->pdo);
+
+			// メニュー情報を取得、セットする
+			$this->setMenu();
+			$word_dto = new T_YADto();
+			$word_dto->id = $this->form->id;
+			$dao = new YAWordService($this->pdo);
+			$result = $dao->deleteWordInfo($word_dto);
+			// 登録処理が正常の場合、クイズ一覧画面に遷移する。
+			if ($result == 1) {
+
+				$_SESSION['regist_msg'] = I005;
+				// 登録完了
+				$this->backAction();
+				// 受講者一覧画面へ遷移する
+
+
+				// 登録出来ない場合
+			} else {
+				$error = sprintf(E007, '削除');
+				$this->smarty->assign('msg', $error);
+				$this->smarty->assign('form', $this->form);
+				$this->smarty->display('WordList.html');
+				return;
+			}
+		} else {
+			TransitionHelper::sendException(E002);
+			return;
+		}
+	}
 }
