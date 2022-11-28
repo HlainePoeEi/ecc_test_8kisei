@@ -287,6 +287,15 @@ section.content {
     display: inline-block;
     vertical-align: middle;
 }
+.ayWordMenuIcon {
+    border: 0px;
+    width: 35px;
+    height: 35px;
+    background: url(../image/menuIcon.png) left top no-repeat;
+    background-size: 35px 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /*-------------------menu------------------*/
 
@@ -1311,6 +1320,15 @@ thead {
     height: 35px;
     border: 0;
 }
+.btn_insert2 {
+    background: url(../image/saveIcon1.png);
+    background-color: none;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border: 0;
+}
 
 .btn_insert_a {
     background: url(../image/success.png);
@@ -1332,7 +1350,18 @@ thead {
     border: 0;
 }
 .btn_back {
-    background: url(../image/backIcon.png);
+    background: url(../image/back.png);
+    background-color: none;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    text-align: right;
+    font-size: 16px;
+}
+.btn_back2 {
+    background: url(../image/backIcon1.png);
     background-color: none;
     background-size: 35px 35px;
     background-repeat: no-repeat;
