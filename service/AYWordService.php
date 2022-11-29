@@ -54,4 +54,11 @@ class AYWordService extends BaseService
 		return $dao->getWordListData($form, $flg);
 	}
 
+	public function deleteWordInfo($dto)
+	{
+		// データベース接続
+		$dao = new T_AYDao();
+		// Ｔ管理者教師データを更新すること
+		return $dao->deleteWordInfo($dto);
+	}
 }

@@ -99,5 +99,16 @@ class T_AYDao extends BaseDao
         $query .= " T_AY t_ay ";
         return $query;
     }
-  
+
+    public function deleteWordInfo($dto)
+    {
+        $query = " DELETE ";
+        $query .= " FROM ";
+        $query .= " T_AY ";
+        $query .= " WHERE ";
+        $query .= " id = :id ";
+        $stmt = $this->pdo->prepare($query);
+        $stmt->bindParam(":id", $dto->id, PDO::PARAM_STR);
+        return parent::delete($stmt);
+    } 
 }
