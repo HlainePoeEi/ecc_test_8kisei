@@ -85,5 +85,19 @@ class T_AYDao extends BaseDao
         return parent::getDataList($stmt, get_class(new T_AYDto()));
     }
 
+    /**
+     * 	単語リストのSQLを作成する
+     *
+     */
+    public function createQuery()
+    {
+        $query = " SELECT ";
+        $query .= " t_ay.id id ";
+        $query .= " ,t_ay.word_book_name word_book_name";
+        $query .= " ,t_ay.word_lang_type word_lang_type ";
+        $query .= " FROM ";
+        $query .= " T_AY t_ay ";
+        return $query;
+    }
   
 }
